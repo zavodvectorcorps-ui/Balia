@@ -4,37 +4,37 @@ import { X, ArrowRight } from 'lucide-react';
 const products = [
   {
     id: 1,
-    name: 'Balia Okrągła',
-    description: 'Klasyczna forma, idealna na 4-6 osób. Wykonana z modrzewia syberyjskiego.',
-    image: 'https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=800&q=80',
-    price: 'od 12 900 zł',
-    features: ['Średnica 180cm', '4-6 osób', 'Modrzew syberyjski'],
+    name: 'Balia Okragla',
+    description: 'Klasyczna forma, idealna na 4-6 osob. Wykonana z modrzewia syberyjskiego.',
+    image: 'https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=800',
+    price: 'od 12 900 zl',
+    features: ['Srednica 180cm', '4-6 osob', 'Modrzew syberyjski'],
     size: 'large',
   },
   {
     id: 2,
     name: 'Balia Kwadratowa',
-    description: 'Nowoczesny design, przestronne wnętrze dla 6-8 osób.',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
-    price: 'od 18 500 zł',
-    features: ['Wymiary 200x200cm', '6-8 osób', 'Świerk skandynawski'],
+    description: 'Nowoczesny design, przestronne wnetrze dla 6-8 osob.',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800',
+    price: 'od 18 500 zl',
+    features: ['Wymiary 200x200cm', '6-8 osob', 'Swierk skandynawski'],
     size: 'medium',
   },
   {
     id: 3,
     name: 'Balia Deluxe',
-    description: 'Luksusowa wersja z podświetleniem LED i systemem hydromasażu.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
-    price: 'od 24 900 zł',
-    features: ['LED RGB', 'Hydromasaż', 'System grzewczy'],
+    description: 'Luksusowa wersja z podswietleniem LED i systemem hydromasazu.',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
+    price: 'od 24 900 zl',
+    features: ['LED RGB', 'Hydromasaz', 'System grzewczy'],
     size: 'medium',
   },
   {
     id: 4,
     name: 'Akcesoria SPA',
-    description: 'Podłogowe termometry, olejki aromatyczne, pokrowce ochronne.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
-    price: 'od 199 zł',
+    description: 'Podlogowe termometry, olejki aromatyczne, pokrowce ochronne.',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800',
+    price: 'od 199 zl',
     features: ['Pokrowce', 'Termometry', 'Olejki'],
     size: 'small',
   },
@@ -60,7 +60,6 @@ export const ProductsSection = () => {
       data-testid="products-section"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16">
           <div>
             <div className="gold-line mb-6" />
@@ -71,8 +70,8 @@ export const ProductsSection = () => {
               Nasza <span className="text-gold">Kolekcja</span>
             </h2>
             <p className="section-subtitle">
-              Wybierz idealną balię dla swojego ogrodu. 
-              Każdy model dostępny w wielu wariantach.
+              Wybierz idealna balie dla swojego ogrodu. 
+              Kazdy model dostepny w wielu wariantach.
             </p>
           </div>
           <button 
@@ -80,17 +79,16 @@ export const ProductsSection = () => {
             className="btn-gold-outline mt-6 md:mt-0 flex items-center gap-2"
             data-testid="products-cta"
           >
-            Skonfiguruj własną
+            Skonfiguruj wlasna
             <ArrowRight size={18} />
           </button>
         </div>
 
-        {/* Bento Grid */}
         <div 
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 auto-rows-[300px]"
           data-testid="products-grid"
         >
-          {products.map((product, index) => (
+          {products.map((product) => (
             <div
               key={product.id}
               className={`product-card ${
@@ -124,7 +122,6 @@ export const ProductsSection = () => {
         </div>
       </div>
 
-      {/* Lightbox */}
       {selectedProduct && (
         <div 
           className="lightbox-overlay"
