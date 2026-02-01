@@ -103,10 +103,12 @@ export const HeroSection = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div 
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float cursor-pointer"
+      <button 
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float cursor-pointer bg-transparent border-none"
         onClick={scrollToProducts}
         data-testid="scroll-indicator"
+        type="button"
+        aria-label="Przewiń do sekcji produktów"
       >
         <div className="flex flex-col items-center gap-2 text-white/50">
           <span className="font-body text-xs uppercase tracking-widest">Odkryj więcej</span>
