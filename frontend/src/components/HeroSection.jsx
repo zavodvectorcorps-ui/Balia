@@ -114,7 +114,7 @@ export const HeroSection = () => {
           <span className="font-body text-xs uppercase tracking-widest">Odkryj więcej</span>
           <ChevronDown size={24} className="text-gold" />
         </div>
-      </div>
+      </button>
     </section>
   );
 };
