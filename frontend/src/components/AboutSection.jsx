@@ -15,10 +15,10 @@ export const AboutSection = () => {
       data-testid="about-section"
     >
       {/* Decorative Image */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[600px] opacity-20 hidden lg:block">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[600px] opacity-30 hidden lg:block">
         <img
-          src="https://images.unsplash.com/photo-1694508437983-20dee874ad74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHx3b29kJTIwdGV4dHVyZSUyMGRhcmslMjBvYWslMjBjbG9zZSUyMHVwfGVufDB8fHx8MTc2OTk3NTU2NHww&ixlib=rb-4.1.0&q=85"
-          alt="Tekstura drewna"
+          src="https://i.imgur.com/ZlSOowr.jpeg"
+          alt="Balia WM-Balia"
           className="w-full h-full object-cover"
           style={{ maskImage: 'linear-gradient(to right, transparent, black)' }}
         />
