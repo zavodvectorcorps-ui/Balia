@@ -1,0 +1,122 @@
+{
+  "identity": {
+    "name": "WM-Balia",
+    "tone": "Exclusive, Minimalist, Welcoming",
+    "aesthetic": "Nature-Lux (Deep Charcoal, Warm Wood, Gold Accents)",
+    "target_audience": "Premium homeowners in Poland seeking luxury outdoor relaxation"
+  },
+  "typography": {
+    "primary_font": "Manrope",
+    "secondary_font": "Playfair Display",
+    "font_weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "usage": {
+      "headings": "font-serif tracking-tight",
+      "body": "font-sans tracking-normal leading-relaxed",
+      "captions": "font-sans text-xs uppercase tracking-widest text-muted-foreground"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": "#0F1115",
+      "foreground": "#F2F2F2",
+      "primary": "#D4AF37",
+      "primary_foreground": "#0F1115",
+      "secondary": "#1E2229",
+      "secondary_foreground": "#F2F2F2",
+      "accent": "#8B5A2B",
+      "accent_foreground": "#FFFFFF",
+      "muted": "#2A2E37",
+      "muted_foreground": "#A1A1AA",
+      "border": "#2A2E37",
+      "input": "#2A2E37",
+      "ring": "#D4AF37"
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(to bottom, rgba(15,17,21,0.3), rgba(15,17,21,1))",
+      "gold_shimmer": "linear-gradient(45deg, #D4AF37, #F2D06B, #D4AF37)"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_padding": "py-24 lg:py-32",
+      "element_gap": "gap-8 lg:gap-12"
+    },
+    "grid_system": {
+      "bento": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+      "features": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#D4AF37] text-[#0F1115] hover:bg-[#C5A059] rounded-full px-8 py-6 text-lg font-medium transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:shadow-[0_0_30px_rgba(212,175,55,0.5)]",
+      "secondary": "bg-transparent border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#0F1115] rounded-full px-8 py-6 text-lg transition-all duration-300"
+    },
+    "cards": {
+      "glass": "bg-[#1E2229]/60 backdrop-blur-md border border-white/5 rounded-2xl p-8 hover:border-[#D4AF37]/30 transition-all duration-500 group",
+      "product": "relative overflow-hidden rounded-3xl aspect-[4/5] group cursor-pointer"
+    },
+    "inputs": {
+      "style": "bg-[#1E2229] border-white/10 focus:border-[#D4AF37] text-white rounded-lg h-12"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1668461363398-1fd41bf2ca79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjB3b29kZW4lMjBob3QlMjB0dWIlMjBvdXRkb29yJTIwbmF0dXJlJTIwc3Vuc2V0fGVufDB8fHx8MTc2OTk3NTU1M3ww&ixlib=rb-4.1.0&q=85",
+      "lifestyle_1": "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjB3b29kZW4lMjBob3QlMjB0dWIlMjBvdXRkb29yJTIwbmF0dXJlJTIwc3Vuc2V0fGVufDB8fHx8MTc2OTk3NTU1M3ww&ixlib=rb-4.1.0&q=85",
+      "lifestyle_2": "https://images.unsplash.com/photo-1694501898715-6961da5a6e67?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjB3b29kZW4lMjBob3QlMjB0dWIlMjBvdXRkb29yJTIwbmF0dXJlJTIwc3Vuc2V0fGVufDB8fHx8MTc2OTk3NTU1M3ww&ixlib=rb-4.1.0&q=85",
+      "product_sauna": "https://images.unsplash.com/photo-1757937176646-d943553b5f09?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHx3b29kZW4lMjBzYXVuYSUyMG91dGRvb3IlMjBnYXJkZW4lMjBsdXh1cnl8ZW58MHx8fHwxNzY5OTc1NTU4fDA&ixlib=rb-4.1.0&q=85",
+      "texture_wood": "https://images.unsplash.com/photo-1694508437983-20dee874ad74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHx3b29kJTIwdGV4dHVyZSUyMGRhcmslMjBvYWslMjBjbG9zZSUyMHVwfGVufDB8fHx8MTc2OTk3NTU2NHww&ixlib=rb-4.1.0&q=85"
+    },
+    "icons": "lucide-react"
+  },
+  "sections": {
+    "hero": {
+      "type": "immersive_video_or_image",
+      "content": {
+        "headline": "Luksus w Twoim Ogrodzie",
+        "subheadline": "Odkryj ręcznie robione balie i sauny, które zmienią Twój ogród w prywatne SPA.",
+        "cta": "Zaprojektuj swoją balię"
+      }
+    },
+    "features": {
+      "items": [
+        { "title": "2 Lata Gwarancji", "desc": "Pełne bezpieczeństwo i wsparcie serwisowe.", "icon": "ShieldCheck" },
+        { "title": "Ręczna Produkcja", "desc": "Każdy detal dopracowany przez polskich rzemieślników.", "icon": "Hammer" },
+        { "title": "Eko Certyfikat", "desc": "Drewno pozyskiwane z odpowiedzialnych źródeł.", "icon": "Leaf" }
+      ]
+    },
+    "products": {
+      "layout": "bento_grid",
+      "items": ["Balia Okrągła", "Balia Kwadratowa", "Sauna Ogrodowa", "Akcesoria SPA"]
+    },
+    "configurator": {
+      "url": "https://wm-kalkulator.pl/embed/balia",
+      "style": "w-full h-[800px] border-0 rounded-xl overflow-hidden shadow-2xl"
+    },
+    "contact": {
+      "address": "Boryny 3, Warszawa",
+      "socials": ["Instagram", "Facebook"]
+    }
+  },
+  "universal_guidelines": {
+    "theme": "dark",
+    "border_radius": "rounded-2xl",
+    "animation_speed": "duration-500",
+    "glassmorphism": "backdrop-blur-xl bg-black/40 border border-white/10"
+  },
+  "instructions_to_main_agent": [
+    "Use 'Manrope' for body text and 'Playfair Display' for headings. Import them from Google Fonts.",
+    "Implement smooth scrolling using 'lenis' or standard CSS scroll-behavior.",
+    "Ensure the Configurator iframe is responsive and has a loading state.",
+    "Use the provided image URLs for specific sections.",
+    "The 'Nature-Lux' aesthetic relies on deep dark backgrounds and gold accents. Do not use white backgrounds.",
+    "For the Product Showcase, use a Bento Grid layout with varying cell sizes for visual interest.",
+    "All text must be in Polish as provided in the sections above."
+  ]
+}
